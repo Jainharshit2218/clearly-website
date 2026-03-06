@@ -125,16 +125,16 @@ const DifferenceSection = () => {
   ];
 
   return (
-    <section className="relative py-40 bg-[#FAFAFA] overflow-hidden">
+    <section className="relative py-24 md:py-40 bg-[#FAFAFA] overflow-hidden">
 
       {/* subtle gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white via-[#FAFAFA] to-[#F5F5F5]" />
 
-      <div className="relative max-w-5xl mx-auto px-6 md:px-12">
+      <div className="relative max-w-5xl mx-auto px-4 md:px-12">
 
         {/* Header */}
         <motion.div
-          className="text-center mb-24"
+          className="text-center mb-14 md:mb-24"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -153,7 +153,7 @@ const DifferenceSection = () => {
 
         {/* Table container */}
         <motion.div
-          className="bg-white/70 backdrop-blur-sm rounded-2xl border border-[#ECECEC] shadow-[0_10px_30px_rgba(0,0,0,0.03)]"
+          className="bg-white/70 backdrop-blur-sm rounded-2xl border border-[#ECECEC] shadow-[0_10px_30px_rgba(0,0,0,0.03)] overflow hidden"
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -161,12 +161,12 @@ const DifferenceSection = () => {
         >
 
           {/* Header Row */}
-          <div className="grid grid-cols-3 px-10 py-6 border-b border-[#EFEFEF]">
+          <div className="grid grid-cols-3 px-4 md:px-10 py-4 md:py-6 border-b border-[#EFEFEF]">
 
             <div />
 
             <div className="text-center">
-              <span className="text-[17px] font-semibold tracking-[-0.01em] text-black">
+              <span className="text-[15px] md:text-[17px] font-semibold tracking-[-0.01em] text-black">
                 CLEARLY.
               </span>
             </div>
@@ -196,8 +196,8 @@ const DifferenceSection = () => {
             >
 
               {/* Feature */}
-              <div className="flex items-center">
-                <span className="text-[16px] text-[#2A2A2A] font-medium tracking-tight">
+              <div className="flex items-center py-4 md:py-5">
+                <span className="text-[14px] md:text-[16px] text-[#2A2A2A] font-medium tracking-tight">
                   {item.feature}
                 </span>
               </div>
@@ -212,23 +212,23 @@ const DifferenceSection = () => {
                   />
                 </div>
 
-                <span className="text-[16px] font-semibold text-black tracking-tight">
+                <span className="text-[15px] md:text-[16px] font-semibold text-black tracking-tight">
                   {item.clearly}
                 </span>
 
               </div>
 
               {/* Traditional column */}
-              <div className="flex items-center justify-center gap-3 opacity-60">
+              <div className="flex items-center justify-center gap-2 md:gap-3 opacity-60">
 
-                <div className="w-6 h-6 rounded-full border border-[#E5E5E5] flex items-center justify-center bg-white">
+                <div className="w-5 h-5 md:w-6 md:h-6 rounded-full border border-[#E5E5E5] flex items-center justify-center bg-white">
                   <X
                     className="w-3.5 h-3.5 text-[#888]"
                     strokeWidth={2.5}
                   />
                 </div>
 
-                <span className="text-[16px] font-medium text-[#888] tracking-tight">
+                <span className="text-[14px] md:text-[16px] font-medium text-[#888] tracking-tight">
                   {item.others}
                 </span>
 
