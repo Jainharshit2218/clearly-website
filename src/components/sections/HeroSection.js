@@ -909,7 +909,7 @@ const HeroSection = () => {
       className="min-h-[70vh] md:min-h-[88vh] flex items-center relative overflow-hidden bg-white"
       style={{
         paddingTop: "100px",
-        paddingBottom: "70px",
+        paddingBottom: "60px",
       }}
     >
       <div className="max-w-[1400px] mx-auto px-5 md:px-12 w-full">

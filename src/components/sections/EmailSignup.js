@@ -404,8 +404,8 @@ const EmailSignup = () => {
   };
 
   return (
-    <section className="py-32 md:py-40 relative" style={{ backgroundColor: "#FAFAFA" }}>
-      <div className="max-w-2xl mx-auto px-6 md:px-12 text-center">
+    <section className="py-16 md:py-40 relative" style={{ backgroundColor: "#FAFAFA" }}>
+      <div className="max-w-xl mx-auto px-6 md:px-12 text-center">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight text-black mb-4">
             Early Access.
@@ -422,12 +422,12 @@ const EmailSignup = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="flex-1 px-6 py-4 bg-transparent outline-none text-black rounded-full"
+              className="flex-1 px-5 py-3 bg-transparent outline-none text-black rounded-full text-[15px]"
             />
             <button
               type="submit"
               disabled={isSubmitting}
-              className="flex flex-col sm:flex-row gap-3 bg-white rounded-full p-3 border border-[#F0F0F0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]"
+              className="bg-black text-white px-6 py-3 rounded-full font-medium flex items-center justify-center gap-2 w-full sm:w-auto text-[15px]"
             >
               {isSubmitting ? "Joining..." : "Join the Waitlist"}
               {!isSubmitting && <ArrowRight className="w-4 h-4" />}
