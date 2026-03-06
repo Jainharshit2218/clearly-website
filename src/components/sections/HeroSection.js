@@ -906,7 +906,7 @@ const HeroSection = () => {
     <section
       ref={containerRef}
       data-testid="hero-section"
-      className="min-h-[85vh] flex items-center relative overflow-hidden bg-white"
+      className="min-h-[70vh] md:min-h-[88vh] flex items-center relative overflow-hidden bg-white"
       style={{
         paddingTop: "100px",
         paddingBottom: "70px",
@@ -1035,7 +1035,7 @@ const HeroSection = () => {
               alt="CLEARLY Clean Energy Water"
               className="
                 mx-auto
-                w-[280px]
+                w-[260px]
                 md:w-[500px]
                 lg:w-[580px]
                 xl:w-[680px]

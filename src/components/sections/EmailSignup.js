@@ -416,7 +416,7 @@ const EmailSignup = () => {
         </motion.div>
 
         <motion.form onSubmit={handleSubmit} className="relative">
-          <div className="flex flex-col sm:flex-row gap-3 bg-white rounded-full p-2 shadow-md">
+          <div className="flex flex-col sm:flex-row gap-3 bg-white rounded-full p-3 border border-[#F0F0F0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
             <input
               type="email"
               value={email}
@@ -427,7 +427,7 @@ const EmailSignup = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="bg-black text-white px-8 py-4 rounded-full font-medium flex items-center gap-2"
+              className="flex flex-col sm:flex-row gap-3 bg-white rounded-full p-3 border border-[#F0F0F0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]"
             >
               {isSubmitting ? "Joining..." : "Join the Waitlist"}
               {!isSubmitting && <ArrowRight className="w-4 h-4" />}
