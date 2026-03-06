@@ -125,7 +125,7 @@ const DifferenceSection = () => {
   ];
 
   return (
-    <section className="relative py-24 md:py-40 bg-[#FAFAFA] overflow-hidden">
+    <section className="relative py-24 md:py-40 bg-[#FAFAFA]">
 
       {/* subtle gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-white via-[#FAFAFA] to-[#F5F5F5]" />

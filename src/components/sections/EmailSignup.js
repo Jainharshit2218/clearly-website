@@ -416,7 +416,7 @@ const EmailSignup = () => {
         </motion.div>
 
         <motion.form onSubmit={handleSubmit} className="relative">
-          <div className="flex flex-col sm:flex-row gap-3 bg-white rounded-full p-3 border border-[#F0F0F0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
+          <div className="flex flex-col sm:flex-row gap-3 bg-white rounded-2xl sm:rounded-full p-2 border border-[#F0F0F0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
             <input
               type="email"
               value={email}
