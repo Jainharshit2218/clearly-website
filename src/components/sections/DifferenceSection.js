@@ -153,7 +153,7 @@ const DifferenceSection = () => {
 
         {/* Table container */}
         <motion.div
-          className="bg-white/70 backdrop-blur-sm rounded-2xl border border-[#ECECEC] shadow-[0_10px_30px_rgba(0,0,0,0.03)] overflow hidden"
+          className="bg-white/70 backdrop-blur-sm rounded-2xl border border-[#ECECEC] shadow-[0_10px_30px_rgba(0,0,0,0.03)]"
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
