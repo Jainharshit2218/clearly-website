@@ -84,7 +84,7 @@ const HowItWorksSection = () => {
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="inline-flex items-center gap-5 text-xl font-medium">
+          <div className="inline-flex items-center gap-3 md:gap-5 text-lg md:text-xl font-medium">
             <span className="text-black">Caffeine</span>
             <span style={{ color: '#CCCCCC' }}>+</span>
             <span className="text-black">L-Theanine</span>

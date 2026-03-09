@@ -161,7 +161,7 @@ const DifferenceSection = () => {
         >
 
           {/* Header Row */}
-          <div className="grid grid-cols-3 px-4 md:px-10 py-4 md:py-6 border-b border-[#EFEFEF]">
+          <div className="grid grid-cols-3 px-3 md:px-10 py-4 md:py-6 border-b border-[#EFEFEF]">
 
             <div />
 
@@ -184,7 +184,7 @@ const DifferenceSection = () => {
 
             <motion.div
               key={item.feature}
-              className="grid grid-cols-3 px-10 py-7 border-b border-[#F2F2F2] last:border-none hover:bg-[#FAFAFA] transition-colors duration-300"
+              className="grid grid-cols-3 px-3 md:px-10 py-6 md:py-7 border-b border-[#F2F2F2] last:border-none hover:bg-[#FAFAFA] transition-colors duration-300"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
