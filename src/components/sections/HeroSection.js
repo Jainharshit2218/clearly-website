@@ -944,11 +944,11 @@ const HeroSection = () => {
               Works like energy.
             </h1>
 
-            {/* Product explanation */}
+            {/*Product explanation*/}
             <div className="mt-6 md:mt-8">
-              <p className="text-base md:text-lg font-medium text-black">
+              {/* <p className="text-base md:text-lg font-medium text-black">
                 100mg caffeine + L-theanine
-              </p>
+              </p> */}
 
               <p className="mt-2 md:mt-3 text-gray-600 text-[15px] md:text-[16px]">
                 Smooth focus. No jitters. No crash.
@@ -957,7 +957,7 @@ const HeroSection = () => {
 
             {/* Scarcity */}
             <p className="mt-5 md:mt-6 text-[13px] md:text-[14px] text-black font-semibold">
-              First 500 customers get 50% off at launch.
+              First 200 customers get 50% off at launch.
             </p>
 
             {/* CTA */}
@@ -1000,7 +1000,7 @@ const HeroSection = () => {
 
               {/* Ingredient strip */}
               <p className="mt-5 md:mt-6 text-[13px] md:text-[14px] text-[#6A6A6A] tracking-tight">
-                • 0 kcal • Zero Sugar • 100mg Natural Caffeine • 100mg L-theanine
+                • Zero kcal • Zero Sugar • 100mg Natural Caffeine • 100mg L-theanine
               </p>
             </motion.div>
 
